@@ -84,7 +84,7 @@ async def capture_ssh_session_line(process):
 user_credits = {}
 
 # Cuty.io API key (Your account key)
-API_KEY = 'ebe681f9e37ef61fcfd756396'
+API_KEY = ''
 
 # Slash command: earnCredit
 @bot.tree.command(name="earncredit", description="Generate a URL to shorten and earn credits.")
